@@ -1,0 +1,425 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:76840cf7-514f-4133-a916-b120caf8e29c#"
+     xml:base="urn:webprotege:ontology:76840cf7-514f-4133-a916-b120caf8e29c"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:76840cf7-514f-4133-a916-b120caf8e29c"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/identifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/identifier"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/rights -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/rights"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/subject -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/subject"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/type -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R71nFjSq934Ok6s3Q5f5Nsd -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R71nFjSq934Ok6s3Q5f5Nsd">
+        <rdfs:label xml:lang="en">BirthDateis</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Ix1cBLK0WO2BvLJ9PUyB0 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8Ix1cBLK0WO2BvLJ9PUyB0">
+        <rdfs:label xml:lang="en">written in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9sqvnW6MWR5Lj8v0vp4RJl -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9sqvnW6MWR5Lj8v0vp4RJl">
+        <rdfs:label xml:lang="en">PublishedDate</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC2V9fF6Oj0XrrUI4dSiZu3 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RC2V9fF6Oj0XrrUI4dSiZu3">
+        <rdfs:label xml:lang="en">Publisher</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDgfCM4cWsQ5ymKby0ILqPk -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDgfCM4cWsQ5ymKby0ILqPk">
+        <rdfs:label xml:lang="en">written by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RyPhlLoJyf678Viceoa46M -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RyPhlLoJyf678Viceoa46M">
+        <rdfs:label xml:lang="en">isFrom</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R88hTQQ2Nj54OKBu4Cgjq4u -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R88hTQQ2Nj54OKBu4Cgjq4u">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8bX4sKmhTr3rhd7oak6X2m"/>
+        <rdfs:label xml:lang="en">Biography</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8YVIUrfgOiFed2ZGuJxLnR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8YVIUrfgOiFed2ZGuJxLnR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RyNJDlvTBdUXDpBYwLh14X"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDgfCM4cWsQ5ymKby0ILqPk"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RyNJDlvTBdUXDpBYwLh14X"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8Ix1cBLK0WO2BvLJ9PUyB0"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RCUNKITJ41WbffN85boFpQU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9sqvnW6MWR5Lj8v0vp4RJl"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RBOBZrq9OoaqRfkrlDnUR0o"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RC2V9fF6Oj0XrrUI4dSiZu3"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/Rb1D75t07QRvulfYl5Zhfj"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Walter Isaacson</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution is an overview of the history of computer science and the Digital Revolution. It was written by Walter Isaacson, and published in 2014 by Simon &amp; Schuster.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">book</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simon &amp; Schuster (U.S.)</dc:publisher>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN 1-4767-0869-X</dc:rights>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OCLC 876012030</dc:rights>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auto-biography</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biography</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Innovator</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E-book, Print (Hardback and Paperback), and Audiobook</dc:type>
+        <rdfs:label xml:lang="en">The Innovator</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/The_Innovators_(book)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8bX4sKmhTr3rhd7oak6X2m -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8bX4sKmhTr3rhd7oak6X2m">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RVrgwSirzjkYtWcjbC20XV"/>
+        <rdfs:label xml:lang="en">nonfiction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBIrA65KBfhA1XdTaPJ9ZNw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBIrA65KBfhA1XdTaPJ9ZNw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RVrgwSirzjkYtWcjbC20XV"/>
+        <rdfs:label xml:lang="en">fiction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBravHFY9y6szYGJ3dunEcA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBravHFY9y6szYGJ3dunEcA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RyNJDlvTBdUXDpBYwLh14X"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDgfCM4cWsQ5ymKby0ILqPk"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RyNJDlvTBdUXDpBYwLh14X"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8Ix1cBLK0WO2BvLJ9PUyB0"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RCUNKITJ41WbffN85boFpQU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9sqvnW6MWR5Lj8v0vp4RJl"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RyOCZxTCnY0KrG6JK6T59Y"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RC2V9fF6Oj0XrrUI4dSiZu3"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/Rb1D75t07QRvulfYl5Zhfj"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Walter Isaacson</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This book takes a satisfactory look at the different aspects of Leonardo&apos;s life and work.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">book</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN: 9786051981048</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simon &amp; Schuster (U.S.)</dc:publisher>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auto-biography</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biography</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leonardo Da Vinci</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E-book, Print (Hardback and Paperback), and Audiobook</dc:type>
+        <rdfs:label xml:lang="en">Leonardo Da Vinci</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.simonandschusterpublishing.com/leonardo-da-vinci/index.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDK90tLgrX6a8RbqvSXqusy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDK90tLgrX6a8RbqvSXqusy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RyNJDlvTBdUXDpBYwLh14X"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDgfCM4cWsQ5ymKby0ILqPk"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RyNJDlvTBdUXDpBYwLh14X"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8Ix1cBLK0WO2BvLJ9PUyB0"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RCUNKITJ41WbffN85boFpQU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9sqvnW6MWR5Lj8v0vp4RJl"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RC1YxlVmKU1WKr1LELfJX3I"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RC2V9fF6Oj0XrrUI4dSiZu3"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/Rb1D75t07QRvulfYl5Zhfj"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Walter Isaacson</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steve Jobs is the authorized self-titled biography of Steve Jobs.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">book</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN: 1-4516-4853-7</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simon &amp; Schuster (U.S.)</dc:publisher>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auto-biography</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biography</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steve Jobs</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E-book, Print (Hardback and Paperback), and Audiobook</dc:type>
+        <rdfs:label xml:lang="en">Steve Jobs</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Steve_Jobs_(book)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RVrgwSirzjkYtWcjbC20XV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RVrgwSirzjkYtWcjbC20XV">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">book</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RyNJDlvTBdUXDpBYwLh14X -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RyNJDlvTBdUXDpBYwLh14X">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R88hTQQ2Nj54OKBu4Cgjq4u"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R71nFjSq934Ok6s3Q5f5Nsd"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RCfTV9lvCaELlQmRAQ2glRz"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RyPhlLoJyf678Viceoa46M"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RCN5tEQIaivyiiaFBcGWizy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">He is an American Author.</dc:description>
+        <rdfs:label xml:lang="en">Walter Isaacson</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Walter_Isaacson"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBOBZrq9OoaqRfkrlDnUR0o -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBOBZrq9OoaqRfkrlDnUR0o">
+        <rdfs:label xml:lang="en">Oct 2014</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC1YxlVmKU1WKr1LELfJX3I -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC1YxlVmKU1WKr1LELfJX3I">
+        <rdfs:label xml:lang="en">Oct 2012</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCN5tEQIaivyiiaFBcGWizy -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCN5tEQIaivyiiaFBcGWizy">
+        <rdfs:label xml:lang="en">United States</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCUNKITJ41WbffN85boFpQU -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCUNKITJ41WbffN85boFpQU">
+        <rdfs:label xml:lang="en">English</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCfTV9lvCaELlQmRAQ2glRz -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCfTV9lvCaELlQmRAQ2glRz">
+        <rdfs:label xml:lang="en">May 1952</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rb1D75t07QRvulfYl5Zhfj -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rb1D75t07QRvulfYl5Zhfj">
+        <rdfs:label xml:lang="en">Simon &amp; Schuster (U.S.)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RyOCZxTCnY0KrG6JK6T59Y -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RyOCZxTCnY0KrG6JK6T59Y">
+        <rdfs:label xml:lang="en">Oct 2019</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
